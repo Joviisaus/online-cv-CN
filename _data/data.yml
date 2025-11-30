@@ -1,31 +1,27 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
   position: right # position of the sidebar : left or right
   about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: 欧阳靖
+  tagline: 游戏引擎研发实习生 | 引擎图形学算法工程师
+  avatar: Profile.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  email: osamu0815@163.com
+  phone: (+86)13517483850
+  timezone: Asia/Shanghai # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: 中国
+  website: https://jovb.vercel.app
+  linkedin: # If you have a LinkedIn profile, fill it here
+  xing:
+  github: https://github.com/Joviisaus
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  bluesky: # Specify your full Bluesky handle
+  twitter:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -35,252 +31,136 @@ sidebar:
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
-    title: Languages
+    title: 语言能力 (Languages)
     info:
-    - idiom: English
-      level: Native
+    - idiom: 英语 (English)
+      level: CET-6 (523)
+    - idiom: 日语 (Japanese)
+      level: JLPT N2
 
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
-
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
-
-career-profile:
-  title: Career Profile
-  summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+  # interests:
+  #   title: 荣誉与兴趣 (Interests)
+  #   info:
+  #   - item: 2022 数维杯国际建模大赛 **Outstanding Winner**
+  #     link:
+  #   - item: 大创竞赛 **一等奖**
+  #     link:
+  #   - item: 昇腾 AI 创新大赛 优秀解决方案奖
+  #     link:
 education:
-  title: Education
+  title: 教育背景 (Education)
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: 工程硕士(Master of Engineering)
+    university: 大连理工大学 (Dalian University of Technology)
+    time: 2024.09 - 2027.06 (预计)
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+      软件工程(工业软件与图形学方向)。
+  - degree: 工学学士(Bachelor of Engineering)
+    university: 大连理工大学 (Dalian University of Technology)
+    time: 2020.09 - 2024.06
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      软件工程
 
 experiences:
-  title: Experiences
+  title: 核心科研与项目经历 (Research Experiences)
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: 二次曲面驱动的三维模型分块与重建
+    company: 大连理工大学 
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      **M4Q - Multi-Feature and Multi-Method Merging based Quadric-Surface auto Splitting and Reconstruction** (第一作者 , ACM Transactions on Graphics - Under Review)
+
+      * 基于 C++ 和自研**半边数据结构**，实现鲁棒的 B-Rep 恢复和二次曲面自动化重建。
+      * **分割策略:** 自适应张量投票机制，针对特征区域缩小张量球半径，由此获取并融合复合特征（二面角、主曲率、主方向叉积场）与欧氏距离、秩约束，设计了可鲁棒处理带噪大规模 CAD 模型的快速分割算法。
+      * **自由生长与合并:** 提出了**二次曲面自由生长算法**，对于理想状态下同类型曲面 G2 连续拼接或者原模型不是二次曲面造成的分块贴体性不达标的情况，能在用户给定的贴体性指标下进一步细分直到满足用户需求。
+      * **高鲁棒性推广:** 代码具备高鲁棒性，以至于能在最经典的 Marching Cubes 生成的网格上直接运行，并对生成的网格特征边调和映射后重网格化，获得工业级B-Rep表示，从而推广到点云模型的二次曲面重建。
+- role: 国家重点研发计划项目 - 土木工程结构仿真前处理引擎关键技术研究
+    company: “十四五”国家重点研发计划项目组
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      **核心挑战与价值 (Hexahedral Meshing):** **作为核心技术攻关者**，致力于解决工业 CAE 仿真中的顶尖难题——全自动生成高质量六面体网格 (Hexahedral Mesh)。该技术突破了扫掠法对手动拆分的依赖，发展了面向六面体网格占优的混合网格自动生成技术，显著提升了结构仿真的高精度、高效率和卓越稳定性。
+
+      * **I. 表面初始分块:** **独立设计并实现**二次曲面自动分块算法，恢复 B-Rep，生成**光滑可微距离场**，为后续扫掠提供了**精确且可计算的几何基础**。
+      * **II. 扫掠方向匹配度量:** 基于距离场指导，**成功构建**了**全局光滑向量场**。通过计算该向量场与潜在扫掠方向的匹配**扫掠能量**，**首次实现**了**多扫掠体**的自动高效划分。
+      * **III. 广义扫掠与分割策略:** 针对不可扫掠区域，**创新设计**在 Voronoi 图上根据能量分布获取切割六面体方向的策略，并初始化切割六面体，**有效解决了能量函数不可导的前提下的全局优化难题**。
+      * 后续工作：**参与制定**技术路线，将潜在扫掠方向推广至**光滑扫掠方向场**，并设计了处理高斯曲率非零的特殊曲面方法，构建扫掠区生成六面体、无法扫掠区域填充四面体的混合网格自动生成流程。
+
+      * **性能加速:** **主导高性能计算优化**。对距离场计算与网格匹配**自行编写 CUDA 核算子**，采用 **CUDA** 对核心的距离场与梯度计算进行深度并行加速，**将分块时间优化至工业应用标准**，有力证明了方案的工程可行性和卓越执行力。
+  - role: 本科毕业设计：高亏格流形上的鲁棒非刚性配准算法
+    company: 大连理工大学
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      * 基于 **Laplacian-Beltrami** 特征向量和 **Morse-Smale Complex**，设计了鲁棒的特征点提取和网格划分配准方法。
+      * 将特征值与特征向量分开配准，在网格点索引不一致的情况下，实现了高亏格流形间的非刚性配准。
 
 certifications:
-  title: Certifications
+  title: 荣誉与认证 (Certifications)
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - name: 数维杯国际大学生建模大赛 Outstanding Winner
+    start: 2022
+    end: 2022
+    organization: 国际数学建模挑战赛组委会 (Top 3 Overall)
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+      2022年国际挑战赛最高奖项 (总排名前3名)。
+  - name: 昇腾 AI 创新大赛优秀解决方案奖
+    start: 2022
+    end: 2023
+    organization: 华为 Ascend
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      并获得 **AI 框架昇思 MindSpore 技术认证**。
+  - name: “互联网+”/全国电子商务挑战赛 一等奖 
+    start: 2021
+    end: 2022
+    organization: 大连理工大学 / 全国挑战赛组委会
+    details: |
+      校级“互联网+”创新创业竞赛一等奖；全国大学生电子商务“创新、创意及创业”挑战赛一等奖。
 
 publications:
-  title: Publications
+  title: 论文发表 (Publications)
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+    已发表及在投的学术论文。
   papers:
-  - title: The Art of Computer Programming
+  - title: M4Q - Multi-Feature and Multi-Method Merging based Quadric-Surface auto Splitting and Reconstruction method
     link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+    authors: Ouyang J. (欧阳靖 - First Author), et al.
+    conference: |
+      Under Review at ACM Transactions on Graphics (TOG), 2024.
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+  - title: A method framework of automatic localization and quantitative segmentation for the cavum septum pellucidum complex and the cerebellar vermis in fetal brain ultrasound images
+    link: "https://pubmed.ncbi.nlm.nih.gov/37711808/"
+    authors: Qifeng Wang, Jingzhu Pei, Jing Ouyang (欧阳靖 - Third Author), et al.
+    conference: Quantitative Imaging in Medicine and Surgery (QIMS), 2023.
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+# recommendations:
+#   title: Recommendations
+#   list:
+  # Delete this entire section if no recommendations are available
+  # - person: 导师姓名 (Advisor's Name)
+  #   email:
+  #   phone:
+  #   role: 教授 (Professor) / 导师 (Advisor) at DUT
+  #   recommendation: |
+  #     可根据需要联系推荐人 (References available upon request).
 
 skills:
-  title: Skills &amp; Proficiency
+  title: 技能与熟练度 (Skills & Proficiency)
 
   toolset:
-  - name: Python & Django
-    level: 98%
+  - name: C++ (核心算法开发)
+    level: 99%
 
-  - name: Javascript & jQuery
-    level: 98%
 
-  - name: Angular
-    level: 98%
+  - name: 计算几何/图形学算法
+    level: 90%
 
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
+  - name: CUDA (高性能计算 HPC)
     level: 85%
 
-  - name: Sketch & Photoshop
-    level: 60%
+  - name: Eigen / 数值优化
+    level: 80%
 
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  - name: Mesh Data Structures (Half-edge, B-Rep)
+    level: 80%
+
+  - name: VAE / 计算机视觉
+    level: 65%
+
+# footer: >
+#   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> 
