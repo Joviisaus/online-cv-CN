@@ -64,6 +64,10 @@ education:
 experiences:
   title: 核心科研与项目经历 (Research Experiences)
   info:
+  - role: 面向“三渲二”风格化的轻量级渲染引擎功能增强
+    company: GAMES101
+    details: |
+      * 基于 C++ 的光栅化渲染器分析与“三渲二”风格化实现 深入分析渲染管线（Graphics Pipeline）源码，结合软件工程“管道与过滤器”架构提升对渲染流程并行的理解；基于 Eigen 库实现了 Blinn-Phong 光照模型与纹理映射，并通过剔除光泽项与深度缓冲区（Z-Buffer）梯度检测算法，成功实现了 3D 模型的色块扁平化与自动边缘描边效果（三渲二），结果展示：https://jovb.vercel.app/2023/11/28/Build-an-3R2-Engine/*
   - role: 二次曲面驱动的三维模型分块与重建
     company: 大连理工大学 
     details: |
